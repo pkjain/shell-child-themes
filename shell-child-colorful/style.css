@@ -11,6 +11,7 @@
 @import url("../shell-master/style.css");
 
 body {color: #000000;}
+body {padding: 0px 0px;}
 
 /* remove line below a */
 a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a {
