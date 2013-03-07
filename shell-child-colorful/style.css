@@ -21,11 +21,11 @@ pre {width:500px; color: #fff; padding:10px; background: #666666}
 code {color: #fff; background: #555555; padding:3px;}
 
 /* header bg */
-#header {background: #d9d1ba; border-color: #d9d1ba;}
+#header {background: #22455c; border-color: #22455c;}
+#site-title a {color:#eee;}
 
 /* no title shadow */
-.hentry .entry-title {text-shadow: 0 0 0 #ccc;} 
-#header {text-shadow: 0 0 0 #ccc;} 
+.hentry .entry-title, #site-title, #header {text-shadow: 0 0 0 #ccc;} 
 
 /* regular image bottom line */
 div .post {border-bottom: 1px solid green; }
