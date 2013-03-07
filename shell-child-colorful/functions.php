@@ -12,10 +12,17 @@ add_action('after_setup_theme', 'scc_after_setup_theme_callback', 11);
 function scc_byline_code() {
   echo do_shortcode('<div class="byline">[entry-published] [entry-edit-link before=" | "]</div>');
 }
+
+function scc_footer_content_code() {
+  $content = '<p class="copyright">' . __( 'Copyright &#169; [the-year] [site-link].', 'shell' ) . '</p>' . "\n\n" . '<p class="credit">' . __( 'Powered by [wp-link], [theme-link], and [child-link].', 'shell' ) . '</p>';
+  echo do_shortcode($content);
+}
 function scc_after_setup_function_callback() {
   $prefix = hybrid_get_prefix();
   add_action( "{$prefix}_byline", 'scc_byline_code');
+  add_action( "{$prefix}_footer_content", 'scc_footer_content_code');
 }
 add_action('after_setup_theme', 'scc_after_setup_function_callback', 11);
+
 
 ?>
