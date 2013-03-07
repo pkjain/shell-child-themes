@@ -2,7 +2,6 @@
 
 // Don't display breadcrumb-trail
 function scc_after_setup_theme_callback() {
-  error_log("========foo");
   remove_theme_support('breadcrumb-trail');
 }
 // Priority 11 to ensure it is executed in the end

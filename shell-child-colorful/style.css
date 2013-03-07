@@ -20,11 +20,19 @@ pre {border: solid 1px blue;
      background: #cccccc}
 code {color: #333333; background: #eeeeee;}
 
-
+/* header bg */
 #header {background: #d9d1ba; border-color: #d9d1ba;}
-.hentry .entry-title {text-shadow: 0 0 0 #ccc;} // no title shadow
-#header {text-shadow: 0 0 0 #ccc;} // no title shadow
-div .post {border-bottom: 2px solid green; } // regular image border
-.hentry img.thumbnail {border: 2px solid green; padding: 1px;} // thumbnail border
-#content img.alignnone {margin-top:10px;} // insert extra top margin in regular image
+
+/* no title shadow */
+.hentry .entry-title {text-shadow: 0 0 0 #ccc;} 
+#header {text-shadow: 0 0 0 #ccc;} 
+
+/* regular image bottom line */
+div .post {border-bottom: 1px solid green; }
+
+/* thumbnail border */
+.hentry img.thumbnail {border: 2px solid green; padding: 1px;}
+
+/* insert extra top margin in regular image */
+img.alignnone {margin-top:5px;}
 ~                                           
