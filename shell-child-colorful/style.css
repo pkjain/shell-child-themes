@@ -31,7 +31,7 @@ code {color: #333333; background: #eeeeee;}
 div .post {border-bottom: 1px solid green; }
 
 /* thumbnail border */
-.hentry img.thumbnail {border: 2px solid green; padding: 1px;}
+.hentry img.thumbnail {border: 1px solid #d9d1ba; padding: 1px;}
 
 /* insert extra top margin in regular image */
 img.alignnone {margin-top:5px;}
