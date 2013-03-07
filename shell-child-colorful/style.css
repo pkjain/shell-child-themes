@@ -13,7 +13,7 @@
 body {color: #000000;}
 
 /* remove line below a */
-a, .entry-meta a, .byline a {
+a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a {
   border-bottom:none;
 }
 
