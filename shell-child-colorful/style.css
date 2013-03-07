@@ -11,10 +11,13 @@
 @import url("../shell-master/style.css");
 
 body {color: #000000;}
-pre {width:500px;
-     color: #fff;
-     padding:10px;
-     background: #666666}
+
+/* remove line below a */
+a, .entry-meta a, .byline a {
+  border-bottom:none;
+}
+
+pre {width:500px; color: #fff; padding:10px; background: #666666}
 code {color: #fff; background: #555555; padding:3px;}
 
 /* header bg */
