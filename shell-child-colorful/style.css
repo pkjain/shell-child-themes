@@ -21,15 +21,10 @@ pre {border: solid 1px blue;
 code {color: #333333; background: #eeeeee;}
 
 
-
-// Terminology table
-#terminology {width: auto; border:none;}
-#terminology td {border: 1px solid black; padding: 4px 4px;}
-#terminology td:first-child {font-weight:bold;}
-
-#header #site-title {text-shadow: 1px 1px 1px #888; background: #d9d1ba;}
 #header {background: #d9d1ba; border-color: #d9d1ba;}
-div .post {border-bottom: 1px solid green; }
-.hentry img.thumbnail {border: 1px solid green; padding: 1px;}
-#content img.alignnone {margin-top:10px;}
+.hentry .entry-title {text-shadow: 0 0 0 #ccc;} // no title shadow
+#header {text-shadow: 0 0 0 #ccc;} // no title shadow
+div .post {border-bottom: 2px solid green; } // regular image border
+.hentry img.thumbnail {border: 2px solid green; padding: 1px;} // thumbnail border
+#content img.alignnone {margin-top:10px;} // insert extra top margin in regular image
 ~                                           
