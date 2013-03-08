@@ -33,4 +33,13 @@ function scc_after_setup_function_callback() {
 add_action('after_setup_theme', 'scc_after_setup_function_callback', 11);
 
 
+/**
+ * Read more link
+ */
+function new_excerpt_more($more) {
+  global $post;
+  return ' <a href="'. get_permalink($post->ID) . '">read more...</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
 ?>
