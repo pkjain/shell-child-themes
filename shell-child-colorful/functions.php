@@ -38,7 +38,7 @@ add_action('after_setup_theme', 'scc_after_setup_function_callback', 11);
  */
 function new_excerpt_more($more) {
   global $post;
-  return ' <a href="'. get_permalink($post->ID) . '">read more...</a>';
+  return ' <a href="'. get_permalink($post->ID) . '"><span class="read-more-link">read more<span></a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 

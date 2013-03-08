@@ -36,4 +36,6 @@ div .post {border-bottom: 1px solid green; }
 
 /* insert extra top margin in regular image */
 img.alignnone {margin-top:5px;}
-~                                           
+
+/* read more after excert */ 
+.read-more-link {color: #fff; background: #444; padding:0 3px 0 3px;}
