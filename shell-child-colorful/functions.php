@@ -11,7 +11,8 @@ function scc_after_setup_theme_callback() {
 
   // theme support add/remove
   remove_theme_support('breadcrumb-trail');
-  //remove_theme_support('get-the-image');
+  remove_theme_support('get-the-image');
+  add_theme_support( 'post-thumbnails' ); // seems like get-the-image removal was not adding it also
 }
 add_action('after_setup_theme', 'scc_after_setup_theme_callback', 11);
 
