@@ -44,6 +44,13 @@ function scc_excerpt_more($more) {
   global $post;
   return ' <a href="'. get_permalink($post->ID) . '"><span class="read-more-link">read more<span></a>';
 }
-add_filter('excerpt_more', 'scc_excerpt_more');
+add_filter('excerpt_more', 'scc_excerpt_more', 999);
+
+// Except length override default 55 
+function scc_excerpt_length( $length ) {
+  return 40;
+}
+add_filter( 'excerpt_length', 'scc_excerpt_length', 999 );
+
 
 ?>
