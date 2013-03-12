@@ -8,7 +8,7 @@
  * Version: 0.0.1
  */
 
-@import url("../shell-master/style.css");
+@import url("../shell-master/style.min.css");
 
 body {color: #000000;}
 body {padding: 0px 0px;}
@@ -43,4 +43,8 @@ img.alignnone {margin-top:5px;}
 /* textarea, etc */
 input, textarea {font-size: 80%; padding:0 0 0 0;}
 
+/* remove border appearing on left on archive pages */
+.hfeed h1, .hfeed h2, .hfeed h3, .hfeed h4, .hfeed h5, .hfeed h6 {border-left:0; padding-left:0;}
 
+/* remove shadow from archive title */
+.loop-title {text-shadow:0 0 0 #fff;}
