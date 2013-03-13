@@ -27,7 +27,7 @@ body {padding: 0px 0px;}
 #menu-secondary li.current-menu-item a {color:#eee; background:#000;}
 @media screen and (max-width: 980px) {
   #menu-secondary li a {border: 0; margin: 0 0; }
-  .menu-container div.search .search-form {border:0;}
+  .menu-container div.search .search-form {border:0; margin:0; padding:0;}
 }
 
 /* remove line below a */
