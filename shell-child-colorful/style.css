@@ -61,3 +61,8 @@ input, textarea {font-size: 80%; padding:0 0 0 0;}
 
 /* remove shadow from archive title */
 .loop-title {text-shadow:0 0 0 #fff;}
+
+/* archive widget title no margin */
+.widget-title {margin: 0; border-bottom: 1px solid green;}
+.archives ul{margin: 0 0 15px 1.0em;}
+
