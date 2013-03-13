@@ -16,6 +16,7 @@ body {padding: 0px 0px;}
 /* links and visited links */
 a {color: #12c;}
 a:visited {color: #609;}
+.entry-title a:visited {color: #000;};
 
 /* remove extra botoom margin */
 h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
