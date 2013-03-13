@@ -17,7 +17,7 @@ body {padding: 0px 0px;}
 #header {background: #22455c; border-color: #22455c;}
 #site-title a {color:#eee;}
 
-/* secondary menu probably move to theme */
+/* secondary menu */
 #menu-secondary, #menu-secondary div.wrap {background: green;}
 #menu-secondary li a {
   /*padding: 5px 5px;*/
