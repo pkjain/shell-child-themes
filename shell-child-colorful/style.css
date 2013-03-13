@@ -12,7 +12,15 @@
 
 body {color: #000000;}
 body {padding: 0px 0px;}
+
+/* links and visited links */
+a {color: #12c;}
+a:visited {color: #609;}
+
+/* remove extra botoom margin */
 h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
+
+/* all h* to have black colors */
 .hfeed h1,.hfeed h2,.hfeed h3,.hfeed h4,.hfeed h5,.hfeed h6 {color:#000;}
 
 /* header bg */
