@@ -13,6 +13,7 @@
 body {color: #000000;}
 body {padding: 0px 0px;}
 h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
+.hfeed h1,.hfeed h2,.hfeed h3,.hfeed h4,.hfeed h5,.hfeed h6 {color:#000;}
 
 /* header bg */
 #header {background: #22455c; border-color: #22455c;}
