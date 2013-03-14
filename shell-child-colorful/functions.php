@@ -1,4 +1,13 @@
 <?php
+/*****************************************
+ * script enqueue/dequeue
+ *****************************************/
+function scc_enqueue_dequeue_scripts () {
+  // don't need fitvids for now
+  wp_dequeue_script( 'shell-fitvids');
+}
+add_action('wp_enqueue_scripts', 'scc_enqueue_dequeue_scripts', 1000);
+
 
 /*****************************************
  * everything needed after_setup_theme
