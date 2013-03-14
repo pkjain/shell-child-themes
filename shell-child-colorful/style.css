@@ -39,6 +39,10 @@ h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
   #menu-secondary li a {border: 0; margin: 0 0; }
   .menu-container div.search .search-form {border:0; margin:0; padding:0;}
 }
+@media screen and (max-width: 480px) {
+  #menu-secondary .mobile-menu-button { color: #fff; }
+  #menu-secondary div.wrap a, #menu-secondary div.wrap ul a {color: #ccc !important;}
+}
 
 /* remove line below a */
 a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a {
