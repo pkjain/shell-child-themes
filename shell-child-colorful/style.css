@@ -12,22 +12,28 @@
 body {color: #000000;}
 body {padding: 0px 0px;}
 
+
 /* links and visited links */
 a {color: #12c;}
 a:visited {color: #609;}
 .entry-title a:visited {color: #000;};
 
+
 /* remove extra botoom margin */
 h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
 
+
 /* all h* to have black colors */
 .hfeed h1,.hfeed h2,.hfeed h3,.hfeed h4,.hfeed h5,.hfeed h6 {color:#000;}
+
 
 /* header bg */
 #header {background: #22455c; border-color: #22455c;}
 #site-title a {color:#eee;}
 
+
 /* secondary menu */
+.menu-container .search-form input[type="text"] {color:#000; font-style:normal}
 #menu-secondary, #menu-secondary div.wrap {background: green;}
 #menu-secondary li a {
   /*padding: 5px 5px;*/
@@ -45,37 +51,49 @@ h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
   #menu-secondary div.wrap a, #menu-secondary div.wrap ul a {color: #ccc !important;}
 }
 
+
 /* remove line below a */
 a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a {
   border-bottom:none;
 }
 
+
+
 pre {width:500px; color: #fff; padding:10px; background: #666666}
 code {color: #fff; background: #555555; padding:3px;}
+
 
 /* no title shadow */
 .hentry .entry-title, #site-title, #header {text-shadow: 0 0 0 #ccc;} 
 
+
 /* regular image bottom line */
 div .post {border-bottom: 1px solid green; }
+
 
 /* thumbnail border */
 .hentry img.thumbnail {border: 1px solid #d9d1ba; padding: 1px;}
 
+
 /* insert extra top margin in regular image */
 img.alignnone {margin-top:5px;}
+
 
 /* read more after excert */ 
 .read-more-link {background: #eee; padding:0 3px 0 3px;}
 
+
 /* textarea, etc */
 input, textarea {font-size: 80%; padding:0 0 0 0;}
+
 
 /* remove border appearing on left on archive pages */
 .hfeed h1, .hfeed h2, .hfeed h3, .hfeed h4, .hfeed h5, .hfeed h6 {border-left:0; padding-left:0;}
 
+
 /* remove shadow from archive title */
 .loop-title {text-shadow:0 0 0 #fff;}
+
 
 /* archive widget title no margin */
 .widget-title {margin: 0; border-bottom: 1px solid green;}
