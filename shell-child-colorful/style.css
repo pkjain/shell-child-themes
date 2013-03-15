@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
 
 
 /* remove line below a */
-a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a {
+a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a, #sidebar-after-singular .widget ul li a {
   border-bottom:none;
 }
 
