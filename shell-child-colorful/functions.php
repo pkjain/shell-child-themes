@@ -5,6 +5,9 @@
 function scc_enqueue_dequeue_scripts () {
   // don't need fitvids for now
   wp_dequeue_script( 'shell-fitvids');
+
+  // TODO: drop downs are probably not needed
+  wp_dequeue_script( 'drop-downs' );
 }
 add_action('wp_enqueue_scripts', 'scc_enqueue_dequeue_scripts', 1000);
 
