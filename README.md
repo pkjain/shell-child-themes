@@ -1,6 +1,6 @@
 # shell-child-themes
 
-This is a public repository for [shell](http://themehybrid.com/themes/shell/) child themes created by [infoheap](http://infoheap.com/).
+This is a public  repository for [shell](http://themehybrid.com/themes/shell/) child themes created by [infoheap](http://infoheap.com/).
 
 # Installation
 1. First download the shell-master theme from the above url
