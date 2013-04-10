@@ -45,6 +45,7 @@ h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
 @media screen and (max-width: 980px) {
   #menu-secondary div.menu{ padding-bottom:0px; }
   #menu-secondary li a {border: 0; margin: 0 0; }
+  #menu-secondary .sub-menu {margin-top:0px; margin-left:0px;}
   .menu-container div.search .search-form {border:0; padding:0px;}
 }
 @media screen and (max-width: 480px) {
