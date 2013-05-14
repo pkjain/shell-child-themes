@@ -14,6 +14,14 @@ body {padding: 0px 0px;}
 h2 {font-size:20px;}
 h3 {font-size:15px;}
 
+
+/* main container introdice hor scroll to ensure width 980 for screen > 760 */
+#container{ width:980px; margin: 0 auto; max-width:980px; }
+@media screen and (max-width: 760px) {
+  #container{ width:95%; margin: 0 auto; max-width:980px;}
+}
+
+
 /* links and visited links */
 a {color: #12c;}
 a:visited {color: #609;}
