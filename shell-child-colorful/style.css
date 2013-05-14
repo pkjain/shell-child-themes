@@ -62,7 +62,7 @@ a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a, #sideb
 
 
 pre {width:500px; color: #fff; padding:10px; background: #666666}
-code {color: #fff; background: #555555; padding:3px;}
+code {color: #000; background: #eee; padding:3px;}
 
 
 /* no title shadow */
