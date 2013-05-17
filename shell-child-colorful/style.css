@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
 
 
 /* header bg */
-#header {background: #22455c; border-color: #22455c;}
+#header {background: #22455c; border: 0px;}
 #site-title a {color:#eee;}
 
 
@@ -45,11 +45,11 @@ h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
 .menu-container .search-form input[type="text"] {color:#000; font-style:normal}
 #menu-secondary {border-right: 0px;}
 #menu-secondary div.wrap {border-left: 0px;}
-#menu-secondary, #menu-secondary div.wrap {background: green;}
+#menu-secondary, #menu-secondary div.wrap {background: #333333;}
 #menu-secondary li a {
   /*padding: 5px 5px;*/
   border-right:0;
-  font: normal normal 13px/13px Arial, Verdana, sans-serif; color: #eee;background: green;
+  font: normal normal 13px/13px Arial, Verdana, sans-serif; color: #eee;background: #333333;
 }
 #menu-secondary li.current-menu-item a {color:#eee; background:#000;}
 @media screen and (max-width: 980px) {
@@ -80,7 +80,7 @@ code {color: #000; background: #eee; padding:3px;}
 
 
 /* regular image bottom line */
-div .post {border-bottom: 1px solid green; }
+div .post {border-bottom: 1px solid #333333; }
 
 
 /* thumbnail border */
@@ -108,6 +108,6 @@ input, textarea {font-size: 80%; padding:0 0 0 0;}
 
 
 /* archive widget title no margin */
-.widget-title {margin: 0; border-bottom: 1px solid green;}
+.widget-title {margin: 0; border-bottom: 1px solid #333333;}
 .archives ul{margin: 0 0 15px 1.0em;}
 
