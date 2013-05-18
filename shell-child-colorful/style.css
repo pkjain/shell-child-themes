@@ -16,9 +16,9 @@ h3 {font-size:15px;}
 
 
 /* main container introdice hor scroll to ensure width 980 for screen > 760 */
-#container{ width:980px; margin: 0 auto; max-width:980px; }
+div#container{ width:980px; margin: 0 auto; max-width:980px; }
 @media screen and (max-width: 760px) {
-  #container{ width:95%; margin: 0 auto; max-width:980px;}
+  div#container{ width:95%; margin: 0 auto; max-width:980px;}
 }
 
 
@@ -37,30 +37,30 @@ h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
 
 
 /* header bg */
-#header {background: #c14543; border: 0px;}
+div#header {background: #c14543; border: 0px;}
 #site-title a {color:#eee;}
 
 
 /* secondary menu */
 .menu-container .search-form input[type="text"] {color:#000; font-style:normal}
-#menu-secondary {border-right: 0px;}
-#menu-secondary div.wrap {border-left: 0px;}
-#menu-secondary, #menu-secondary div.wrap {background: #333333;}
-#menu-secondary li a {
+div#menu-secondary {border-right: 0px;}
+div#menu-secondary div.wrap {border-left: 0px;}
+div#menu-secondary, div#menu-secondary div.wrap {background: #333333;}
+div#menu-secondary li a {
   /*padding: 5px 5px;*/
   border-right:0;
   font: normal normal 13px/13px Arial, Verdana, sans-serif; color: #eee;background: #333333;
 }
-#menu-secondary li.current-menu-item a {color:#eee; background:#000;}
+div#menu-secondary li.current-menu-item a {color:#eee; background:#000;}
 @media screen and (max-width: 980px) {
-  #menu-secondary div.menu{ padding-bottom:0px; }
-  #menu-secondary li a {border: 0; margin: 0 0; }
-  #menu-secondary .sub-menu {margin-top:0px; margin-left:0px;}
-  .menu-container div.search .search-form {border:0; padding:0px;}
+  div#menu-secondary div.menu{ padding-bottom:0px; }
+  div#menu-secondary li a {border: 0; margin: 0 0; }
+  div#menu-secondary .sub-menu {margin-top:0px; margin-left:0px;}
+  div.menu-container div.search .search-form {border:0; padding:0px;}
 }
 @media screen and (max-width: 480px) {
-  #menu-secondary .mobile-menu-button { color: #fff; }
-  #menu-secondary div.wrap a, #menu-secondary div.wrap ul a {color: #ccc !important;}
+  div#menu-secondary .mobile-menu-button { color: #fff; }
+  div#menu-secondary div.wrap a, #menu-secondary div.wrap ul a {color: #ccc !important;}
 }
 
 
