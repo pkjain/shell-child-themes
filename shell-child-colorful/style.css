@@ -8,14 +8,15 @@
  * Version: 0.0.1
  */
 
-
-body {color: #000000;}
-body {padding: 0px 0px;}
+/* Extra .wordpress to increase specificity for IE8 sequene issue */
+body.wordpress {color: #000000;}
+body.wordpress {padding: 0px 0px;}
 h2 {font-size:20px;}
 h3 {font-size:15px;}
 
 
 /* main container introdice hor scroll to ensure width 980 for screen > 760 */
+/* extra div to increase specificity for IE8 sequene issue */
 div#container{ width:980px; margin: 0 auto; max-width:980px; }
 @media screen and (max-width: 760px) {
   div#container{ width:95%; margin: 0 auto; max-width:980px;}
@@ -37,11 +38,13 @@ h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
 
 
 /* header bg */
+/* extra div to increase specificity for IE8 sequene issue */
 div#header {background: #c14543; border: 0px;}
 #site-title a {color:#eee;}
 
 
 /* secondary menu */
+/* extra div to increase specificity for IE8 sequene issue */
 .menu-container .search-form input[type="text"] {color:#000; font-style:normal}
 div#menu-secondary {border-right: 0px;}
 div#menu-secondary div.wrap {border-left: 0px;}
