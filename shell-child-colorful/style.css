@@ -68,18 +68,15 @@ div#menu-secondary li.current-menu-item a {color:#eee; background:#000;}
 
 
 
-/* footer etc */
-div#footer {background: #c14543; border: 0px; color:#333;}
-div#footer a {color:#333;}
-
+/* footer */
+div#footer {background: #333; border: 0px;}
+div#footer, div#footer a {color:#666;}
 
 /* subsidiary menu */
-div#menu-subsidiary, div#menu-subsidiary div.wrap, div#menu-subsidiary div.wrap div.menu {background: #333333;}
-div#menu-subsidiary li a {
-  font: normal normal 13px/13px Arial, Verdana, sans-serif; color: #eee;background: #333333;
-}
+div#menu-subsidiary, div#menu-subsidiary div.wrap, div#menu-subsidiary div.wrap div.menu, div#menu-subsidiary li a {background: #333;}
+div#menu-subsidiary li a {font: normal normal 13px/13px Arial, Verdana, sans-serif; color: #888;}
 div#menu-subsidiary div.menu {border: 0px;}
-div#menu-subsidiary li a {border-right: 1px solid #444;}
+div#menu-subsidiary li a {border-right: 0px;}
 
 
 /* remove line below a */
