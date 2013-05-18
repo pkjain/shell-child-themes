@@ -67,6 +67,21 @@ div#menu-secondary li.current-menu-item a {color:#eee; background:#000;}
 }
 
 
+
+/* footer etc */
+div#footer {background: #c14543; border: 0px; color:#333;}
+div#footer a {color:#333;}
+
+
+/* subsidiary menu */
+div#menu-subsidiary, div#menu-subsidiary div.wrap, div#menu-subsidiary div.wrap div.menu {background: #333333;}
+div#menu-subsidiary li a {
+  font: normal normal 13px/13px Arial, Verdana, sans-serif; color: #eee;background: #333333;
+}
+div#menu-subsidiary div.menu {border: 0px;}
+div#menu-subsidiary li a {border-right: 1px solid #444;}
+
+
 /* remove line below a */
 a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a, #sidebar-after-singular .widget ul li a {
   border-bottom:none;
