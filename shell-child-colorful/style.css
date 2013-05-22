@@ -27,15 +27,18 @@ div#container{ width:980px; max-width:980px; margin: 0 auto; border-left:10px so
 /* links and visited links */
 a {color: #12c;}
 a:visited {color: #609;}
-.entry-title a:visited {color: #000;};
+.entry-title a:visited {color: #000;}
 
 
 /* remove extra botoom margin */
-h1,h2,h3,h4,h5,h6 {margin: 0 0 10px 0;}
+h1, h2, h3, h4, h5, h6 {margin: 0px 25px 10px 0px;}
 
 
 /* all h* to have black colors */
-.hfeed h1,.hfeed h2,.hfeed h3,.hfeed h4,.hfeed h5,.hfeed h6 {color:#000;}
+.hfeed h1, .hfeed h2, .hfeed h3, .hfeed h4, .hfeed h5, .hfeed h6 {color:#000;}
+
+/* extra space above h2 for posts, pages */
+.hfeed h2 {margin-top: 50px;}
 
 
 /* header bg */
