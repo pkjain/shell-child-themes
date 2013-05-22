@@ -88,6 +88,8 @@ a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a, #sideb
   border-bottom:none;
 }
 
+/* remove extra space below byline */
+.singular .byline {margin: 0 0 10px 0;}
 
 
 pre {
