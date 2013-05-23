@@ -140,3 +140,4 @@ input, textarea {font-size: 80%; padding:0 0 0 0;}
 /* previous next */
 div.previous {width: 45%; float:left;}
 div.next {width: 45%; float:right;}
+.singular .loop-nav a {font-style:normal;}
