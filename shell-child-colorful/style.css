@@ -136,3 +136,6 @@ input, textarea {font-size: 80%; padding:0 0 0 0;}
 .widget-title {margin: 0; border-bottom: 1px solid #dddddd;}
 .archives ul{margin: 0 0 15px 1.0em;}
 
+
+/* previous next */
+div.previous {width: 50%; float:left;}
