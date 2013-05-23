@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0px 25px 10px 0px;}
 /* extra div to increase specificity for IE8 sequene issue */
 div#header {background: #c14543; border: 0px;}
 #site-title a {color:#eee;}
-#site-description {color: #22455c;}
+#site-description {color: #222;}
 
 /* secondary menu */
 /* extra div to increase specificity for IE8 sequene issue */
