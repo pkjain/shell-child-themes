@@ -93,7 +93,7 @@ a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a, #sideb
 .layout-2c-l #sidebar-primary, .layout-default #sidebar-primary {width: 35%;}
 
 /* sidebar primary */
-div#sidebar-primary {background: #555; border: 10px solid #555;}
+div#sidebar-primary {background: #777; border: 10px solid #777;}
 
 /* bottom bar - sidebar-subsidiary */
 div#sidebar-subsidiary {background: #333; border-bottom: 1px solid #555; border-left: 0; border-right:0;}
