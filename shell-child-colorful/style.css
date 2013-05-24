@@ -87,6 +87,9 @@ a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a, #sideb
   border-bottom:none;
 }
 
+/* bottom bar - sidebar-subsidiary */
+div#sidebar-subsidiary {background: #333; border-bottom: 1px solid #555; border-left: 0; border-right:0;}
+
 /* remove extra space below byline */
 .singular .byline {margin: 0 0 10px 0;}
 
