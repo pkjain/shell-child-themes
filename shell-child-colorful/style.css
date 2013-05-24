@@ -79,7 +79,7 @@ div#footer, div#footer a {color:#666;}
 div#menu-subsidiary, div#menu-subsidiary div.wrap, div#menu-subsidiary div.wrap div.menu, div#menu-subsidiary li a {background: #333;}
 div#menu-subsidiary li a {font: normal normal 13px/13px Arial, Verdana, sans-serif; color: #888;}
 div#menu-subsidiary div.menu {border: 0px;}
-div#menu-subsidiary li a {border-right: 0px;}
+div#menu-subsidiary li a {border: 0px;}
 
 
 /* remove line below a */
