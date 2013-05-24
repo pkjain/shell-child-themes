@@ -14,7 +14,7 @@ body.wordpress {padding: 0px 10px;}
 body {font-family:inherit;} 
 h2 {font-size:20px;}
 h3 {font-size:15px;}
-
+div.hentry {color: #000;}
 
 /* main container introdice hor scroll to ensure width 980 for screen > 760 */
 /* extra div to increase specificity for IE8 sequene issue */
