@@ -102,10 +102,7 @@ code {color: #000; background: #eee; padding:3px;}
 /* no title shadow */
 .hentry .entry-title, #site-title, #header {text-shadow: 0 0 0 #ccc;} 
 
-
-/* regular image bottom line */
-div .post {border-bottom: 1px solid #dddddd; }
-/* conten image border */
+/* content image border */
 .entry-content img.alignnone {border: 1px dashed #888;}
 
 /* thumbnail border */
