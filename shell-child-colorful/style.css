@@ -87,6 +87,14 @@ a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a, #sideb
   border-bottom:none;
 }
 
+
+/* layout */
+.layout-2c-l #content, .layout-default #content {width: 62.5%;}
+.layout-2c-l #sidebar-primary, .layout-default #sidebar-primary {width: 35%;}
+
+/* sidebar primary */
+div#sidebar-primary {background: #888; border: 10px solid #888;}
+
 /* bottom bar - sidebar-subsidiary */
 div#sidebar-subsidiary {background: #333; border-bottom: 1px solid #555; border-left: 0; border-right:0;}
 
