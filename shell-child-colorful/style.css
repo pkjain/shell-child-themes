@@ -71,8 +71,6 @@ div#menu-secondary li.current-menu-item a {color:#eee; background:#000;}
 }
 
 
-/* cat, tag bef footer */
-div.entry-meta {background: #eee; border-radius: 4px; margin:6px 3px 3px 3px; padding: 3px;}
 /* footer */
 div#footer {background: #333; border: 0px;}
 div#footer, div#footer a {color:#666;}
