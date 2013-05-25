@@ -30,6 +30,10 @@ add_action('after_setup_theme', 'scc_after_setup_theme_callback', 11);
 
 /* Display only date in byline */
 function scc_byline_code() {
+  if (is_page()) {
+    echo do_shortcode('<div class="byline">[entry-edit-link]</div>');
+    return;
+  }
   echo do_shortcode('<div class="byline">[entry-published] [entry-edit-link before=" | "]</div>');
 }
 
