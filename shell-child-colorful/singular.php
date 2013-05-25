@@ -41,7 +41,8 @@ get_header(); // Loads the header.php template. ?>
 
 		<?php do_atomic( 'close_content' ); // shell_close_content ?>
 
-		<?php shell_get_atomic_template( 'loop-nav' ); // atomic context loop template, in "loop-nav" directory ?>
+		<?php // removed by infoheap ?>
+		<?php //shell_get_atomic_template( 'loop-nav' ); // atomic context loop template, in "loop-nav" directory ?>
 
 	</div><!-- #content -->
 

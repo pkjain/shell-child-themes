@@ -33,6 +33,9 @@
 
 	<?php do_atomic( 'after_entry_content' ); // shell_after_entry_content ?>
 
+	<?php // added by infoheap ?>
+	<?php shell_get_atomic_template( 'loop-nav' ); // atomic context loop template, in "loop-nav" directory ?>
+
 	<?php echo apply_atomic_shortcode( 'entry_meta', '<div class="entry-meta">' . __( '[entry-terms taxonomy="category" before="Posted in "] [entry-terms taxonomy="post_tag" before="| Tagged "]', 'shell' ) . '</div>' ); ?>
 
 	<?php do_atomic( 'close_entry' ); // shell_close_entry ?>
