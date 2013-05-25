@@ -152,6 +152,7 @@ img.alignnone {margin-top:5px;}
 div.previous {width: 45%; float:left;}
 div.next {width: 45%; float:right;}
 .singular .loop-nav a {font-style:normal;}
+.singular .loop-nav {overflow: hidden;}
 
 
 /* cat, tag stuff */
