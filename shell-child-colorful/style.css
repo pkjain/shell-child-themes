@@ -149,11 +149,12 @@ img.alignnone {margin-top:5px;}
 
 
 /* previous next */
-div.previous {width: 45%; float:left;}
-div.next {width: 45%; float:right;}
+div.loop-nav {display:table;}
+div.previousicon {display:table-cell; vertical-align:middle; padding-right:5px;}
+div.previous {display:table-cell; vertical-align:middle; padding-right:25px;}
+div.next {display:table-cell;vertical-align:middle;padding-right:5px;}
+div.nexticon {display:table-cell;vertical-align:middle; pa}
 .singular .loop-nav a {font-style:normal;}
-.singular .loop-nav {overflow: hidden;}
-
 
 /* cat, tag stuff */
 .entry-meta {color: #555;}
