@@ -15,7 +15,6 @@ body {font-family:inherit;}
 h2 {font-size:20px;}
 h3 {font-size:15px;}
 div.hentry {color: #000;}
-.scc-button {padding:4px; background:#888; color:#fff; border-radius: 3px; box-shadow: 1px 1px 0px 0px #333;}
 p {margin: 0 0 10px 0;}
 
 /* main container introdice hor scroll to ensure width 980 for screen > 760 */
@@ -157,6 +156,7 @@ div.previous {display:table-cell; vertical-align:middle; padding-right:25px;}
 div.next {display:table-cell;vertical-align:middle;padding-right:5px;}
 div.nexticon {display:table-cell;vertical-align:middle; pa}
 .singular .loop-nav a {font-style:normal;}
+.loop-nav .previousicon span {padding:4px;}
 
 /* cat, tag stuff */
 .entry-meta {color: #555;}
