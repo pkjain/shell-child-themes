@@ -92,7 +92,7 @@ a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a, #sideb
 
 /* layout */
 .layout-2c-l #content, .layout-default #content {width: 62.5%;}
-.layout-2c-l #sidebar-primary, .layout-default #sidebar-primary {width: 35%;}
+.layout-2c-l #sidebar-primary, .layout-default #sidebar-primary {width: 320px;}
 @media screen and (max-width: 760px) {
   .layout-default #content, .layout-2c-l #content {width:100%;}
   .layout-2c-l #sidebar-primary, .layout-default #sidebar-primary {width:320px;}
