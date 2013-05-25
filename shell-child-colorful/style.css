@@ -18,9 +18,9 @@ div.hentry {color: #000;}
 
 /* main container introdice hor scroll to ensure width 980 for screen > 760 */
 /* extra div to increase specificity for IE8 sequene issue */
-div#container{ width:980px; max-width:980px; margin: 0 auto; box-shadow: 0 10px 15px rgba(0,0,0,0.63);}
+div#container{ width:980px; max-width:980px; margin: 5px auto; box-shadow: 0 10px 15px rgba(0,0,0,0.63);}
 @media screen and (max-width: 760px) {
-  div#container{ width:95%; max-width:980px; margin: 0 auto; }
+  div#container{ width:95%; max-width:980px; margin: 5px auto; }
 }
 
 
