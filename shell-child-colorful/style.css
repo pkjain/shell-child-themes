@@ -151,7 +151,7 @@ img.alignnone {margin-top:5px;}
 
 
 /* previous next */
-div.loop-nav {display:table;}
+div.loop-nav {display:table; width:99%;}
 div.previousicon {display:table-cell; vertical-align:middle; padding-right:5px;}
 div.previous {display:table-cell; vertical-align:middle; padding-right:25px;}
 div.next {display:table-cell;vertical-align:middle;padding-right:5px;}
