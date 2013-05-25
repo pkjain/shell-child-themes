@@ -97,7 +97,7 @@ a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a, #sideb
   .layout-2c-l #sidebar-primary, .layout-default #sidebar-primary {width:320px;}
 }
 
-/* sidebar primary */
+/* sidebar primary bg color darkslategray:778899 */
 div#sidebar-primary {background: #778899; border: 10px solid #778899;}
 
 /* bottom bar - sidebar-subsidiary */
