@@ -38,8 +38,9 @@ h1, h2, h3, h4, h5, h6 {margin: 0px 25px 10px 0px;}
 /* all h* to have black colors */
 .hfeed h1, .hfeed h2, .hfeed h3, .hfeed h4, .hfeed h5, .hfeed h6 {color:#000;}
 
-/* extra space above h2 for posts, pages */
+/* extra space above h2,h3 for posts, pages */
 .hfeed h2 {margin-top: 50px;}
+.hfeed h3 {margin-top: 40px;}
 
 
 /* header bg */
