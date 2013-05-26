@@ -21,7 +21,7 @@ p {margin: 0 0 10px 0;}
 /* extra div to increase specificity for IE8 sequene issue */
 div#container{ width:980px; max-width:980px; margin: 10px auto; border-radius: 3px; box-shadow: 0 10px 15px rgba(0,0,0,0.63);}
 @media screen and (max-width: 760px) {
-  div#container{ width:95%; max-width:980px; margin: 0px auto; }
+  div#container{ width:95%; max-width:980px; margin: 10px auto; }
 }
 
 
