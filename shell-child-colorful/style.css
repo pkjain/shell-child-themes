@@ -119,7 +119,7 @@ code {color: #000; background: #eee; padding:3px;}
 .hentry .entry-title, #site-title, #header {text-shadow: 0 0 0 #ccc;} 
 
 /* content image border */
-.entry-content img.alignnone {border: 2px solid #87cefa;}
+.entry-content img.alignnone {border: 1px solid #87cefa;}
 
 /* thumbnail border */
 .hentry img.thumbnail {border: 1px solid #d9d1ba; padding: 1px;}
