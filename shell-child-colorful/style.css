@@ -158,5 +158,9 @@ div.nexticon {display:table-cell;vertical-align:middle; width:10px}
 .singular .loop-nav a {font-style:normal;}
 .loop-nav .previousicon span {padding:4px;}
 
+/* pagination */
+.pagination .page-numbers {box-shadow: 1px 1px 0 0 #333; border:0; border-radius:3px; background: #888; color: #666;}
+.pagination a.page-numbers {color:#fff;}
+
 /* cat, tag stuff */
 .entry-meta {color: #555;}
