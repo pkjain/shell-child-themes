@@ -59,8 +59,7 @@ div#menu-secondary, div#menu-secondary div.wrap {background: #0b708a;}
 div#menu-secondary li {background:inherit;}
 div#menu-secondary li a {
   /*padding: 5px 5px;*/
-  border-right:0;
-  font: normal normal 13px/13px Arial, Verdana, sans-serif; color: #ddd; background:inherit;
+  border-right:0; background:inherit; color: #ddd; font-size: 12px; line-height: 12px; font-weight: normal;
 }
 div#menu-secondary li.current-menu-item a {color:#fff; background:inherit;}
 @media screen and (max-width: 980px) {
