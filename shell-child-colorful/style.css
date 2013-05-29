@@ -8,10 +8,14 @@
  * Version: 0.0.1
  */
 
+
+/* font stuff */
+body {font-family:Arial,sans-serif; font-size:14px;}
+.hentry {font-size: inherit;}
+
 /* Extra .wordpress to increase specificity for IE8 sequene issue */
 body.wordpress {color: #000000;}
 body.wordpress {padding: 10px 10px;}
-body {font-family:inherit;} 
 h2 {font-size:20px;}
 h3 {font-size:15px;}
 p {margin: 0 0 10px 0;}
@@ -112,7 +116,6 @@ pre {
   font: normal normal normal 13px Arial,Verdana,sans-serif;
 } 
 code {color: #000; background: #eee; padding:3px;}
-
 
 /* no title shadow */
 .hentry .entry-title, #site-title, #header {text-shadow: 0 0 0 #ccc;} 
