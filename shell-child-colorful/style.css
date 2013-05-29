@@ -54,6 +54,7 @@ div#header {background: #333; border: 0px; border-radius:5px 5px 0 0;}
 /* extra div to increase specificity for IE8 sequene issue */
 .menu-container .search-form input[type="text"] {color:#000; font-style:normal}
 div#menu-secondary {border: 0px;}
+div#menu-secondary .menu {border-bottom: 1px solid #0b7081;}
 div#menu-secondary div.wrap {border-left: 0px;}
 div#menu-secondary, div#menu-secondary div.wrap {background: #0b708a;}
 div#menu-secondary li {background:inherit;}
