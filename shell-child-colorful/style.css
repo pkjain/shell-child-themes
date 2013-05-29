@@ -31,7 +31,7 @@ div#container{box-shadow:-6px 0px 6px -6px rgba(80, 80, 80, 1), 6px 0px 6px -6px
 
 
 /* links and visited links */
-.entry-meta a, a {color: rgb(23, 35, 172);}
+.entry-meta a, a {color: rgb(66, 76, 192);}
 .entry-title a:visited {color: #000;}
 
 
