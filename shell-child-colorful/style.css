@@ -23,7 +23,7 @@ p {margin: 0 0 10px 0;}
 /* main container introdice hor scroll to ensure width 980 for screen > 760 */
 /* extra div to increase specificity for IE8 sequene issue */
 div#container{ width:980px; max-width:980px; margin: 0 auto;}
-div#container{box-shadow:-8px 0px 6px -6px rgba(80, 80, 80, 1), 8px 0px 6px -6px rgba(80, 80, 80, 1);}
+div#container{box-shadow:-6px 0px 6px -6px rgba(80, 80, 80, 1), 6px 0px 6px -6px rgba(80, 80, 80, 1);}
 /* width: 100% needed for 480px responsive layout.*/
 @media screen and (max-width: 760px) {
   div#container{ width:100%; max-width:980px; margin: 0 auto; }
