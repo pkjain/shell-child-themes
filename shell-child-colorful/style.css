@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0px 25px 10px 0px;}
 
 /* header bg */
 /* extra div to increase specificity for IE8 sequene issue */
-div#header {background: #333; border: 0px; border-radius:5px 5px 0 0;}
+div#header {border: 0px; border-radius:5px 5px 0 0; background: #085569}
 #site-title a {color:#eee;}
 #site-description {color: #aaa;}
 
@@ -54,9 +54,9 @@ div#header {background: #333; border: 0px; border-radius:5px 5px 0 0;}
 /* extra div to increase specificity for IE8 sequene issue */
 .menu-container .search-form input[type="text"] {color:#000; font-style:normal}
 div#menu-secondary {border: 0px;}
-div#menu-secondary .menu {border-bottom: 1px solid #0b7081;}
+div#menu-secondary .menu {border-bottom: 1px solid #555;}
 div#menu-secondary div.wrap {border-left: 0px;}
-div#menu-secondary, div#menu-secondary div.wrap {background: #0b708a;}
+div#menu-secondary, div#menu-secondary div.wrap {background: #555;}
 div#menu-secondary li {background:inherit;}
 div#menu-secondary li a {
   /*padding: 5px 5px;*/
