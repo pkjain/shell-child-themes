@@ -76,7 +76,7 @@ div#menu-secondary li.current-menu-item a {color:#fff; background:inherit;}
 
 
 /* footer */
-div#footer {border: 0px; border-radius:0 0 5px 5px; background:#333;}
+div#footer {border: 0px; border-radius:0 0 5px 5px; background:#333; font-size:12px;}
 div#footer, div#footer a {color:#666;}
 
 /* subsidiary menu */
