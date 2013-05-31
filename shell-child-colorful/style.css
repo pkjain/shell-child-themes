@@ -54,9 +54,9 @@ div#header {border: 0px; border-radius:5px 5px 0 0; background: #085569}
 /* extra div to increase specificity for IE8 sequene issue */
 .menu-container .search-form input[type="text"] {color:#000; font-style:normal}
 div#menu-secondary {border: 0px;}
-div#menu-secondary .menu {border-bottom: 1px solid #555;}
+div#menu-secondary .menu {border-bottom: 1px solid #444;}
 div#menu-secondary div.wrap {border-left: 0px;}
-div#menu-secondary, div#menu-secondary div.wrap {background: #555;}
+div#menu-secondary, div#menu-secondary div.wrap {background: #444;}
 div#menu-secondary li {background:inherit;}
 div#menu-secondary li a {
   /*padding: 5px 5px;*/
@@ -104,7 +104,7 @@ a, .entry-meta a, .byline a, #footer a, #sidebar-primary .widget ul li a, #sideb
 div#sidebar-primary {background: #3391ac; border: 10px solid #3394ac; border-bottom: 0px;}
 
 /* bottom bar - sidebar-subsidiary */
-div#sidebar-subsidiary {background: #333; border-bottom: 1px solid #555; border-left: 0; border-right:0;}
+div#sidebar-subsidiary {background: #333; border-bottom: 1px solid #444; border-left: 0; border-right:0;}
 
 /* remove extra space below byline */
 .singular .byline {margin: 0 0 10px 0;}
