@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0px 25px 10px 0px;}
 
 /* header bg */
 /* extra div to increase specificity for IE8 sequene issue */
-div#header {border: 0px; border-radius:5px 5px 0 0; background: #085569}
+div#header {border: 0px; border-radius:0px 0px 0 0; background: #085569}
 #site-title a {color:#eee;}
 #site-description {color: #aaa;}
 
@@ -76,7 +76,7 @@ div#menu-secondary li.current-menu-item a {color:#fff; background:inherit;}
 
 
 /* footer */
-div#footer {border: 0px; border-radius:0 0 5px 5px; background:#333; font-size:12px;}
+div#footer {border: 0px; border-radius:0 0 0px 0px; background:#333; font-size:12px;}
 div#footer, div#footer a {color:#666;}
 
 /* subsidiary menu */
