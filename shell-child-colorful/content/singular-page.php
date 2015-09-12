@@ -34,6 +34,15 @@
 
 	<?php do_atomic( 'after_entry_content' ); // shell_after_entry_content ?>
 
+        <?php // Added by infoheadp?>
+        <?php
+          $skip_page_entry_meta_values = get_post_custom_values('skip_page_entry_meta');
+          if (!in_array('1', $skip_page_entry_meta_values)) {
+            echo apply_atomic_shortcode( 'entry_meta', '<div class="entry-meta">' . __( '[entry-terms taxonomy="category" before="Posted in "] [entry-terms taxonomy="post_tag" before="| Tagged "]', 'shell' ) . '</div>' );
+          }
+        ?>
+        <?php // end Added by infoheadp?>
+
 	<?php do_atomic( 'close_entry' ); // shell_close_entry ?>
 
 </div><!-- .hentry -->
