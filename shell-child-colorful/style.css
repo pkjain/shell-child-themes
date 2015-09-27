@@ -15,7 +15,7 @@ body {font-family:Arial,sans-serif; font-size:14px;}
 
 /* Extra .wordpress to increase specificity for IE8 sequene issue */
 body.wordpress {color: #000000;}
-body.wordpress {padding: 10px 10px;}
+body.wordpress {padding: 0px 0px;}
 h2 {font-size:20px;}
 h3 {font-size:15px;}
 p {margin: 0 0 10px 0;}
