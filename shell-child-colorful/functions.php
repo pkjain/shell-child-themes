@@ -34,7 +34,7 @@ function scc_byline_code() {
     echo do_shortcode('<div class="byline">[entry-edit-link]</div>');
     return;
   }
-  echo do_shortcode('<div class="byline">[entry-published] [entry-edit-link before=" | "]</div>');
+  echo do_shortcode('<div class="byline">Updated: [entry-updated] | published: [entry-published] [entry-edit-link before=" | "]</div>');
 }
 
 
