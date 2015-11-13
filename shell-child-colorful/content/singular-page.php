@@ -37,7 +37,8 @@
         <?php // Added by infoheadp?>
         <?php
           $skip_page_entry_meta_values = get_post_custom_values('skip_page_entry_meta');
-          if (!in_array('1', $skip_page_entry_meta_values)) {
+          $is_skip_page_entry_meta = (is_array($skip_page_entry_meta_values) && in_array('1', $skip_page_entry_meta_values))? True : False;
+          if (!$is_skip_page_entry_meta) {
             echo apply_atomic_shortcode( 'entry_meta', '<div class="entry-meta">' . __( '[entry-terms taxonomy="category" before="Posted in "] [entry-terms taxonomy="post_tag" before="| Tagged "]', 'shell' ) . '</div>' );
           }
         ?>
