@@ -135,7 +135,7 @@ img.alignnone {margin-top:5px;}
 
 
 /* textarea, etc */
-.entry-content input, .entry-content textarea {font-size: 80%; padding:0 0 0 0;}
+.entry-content input[type=text], .entry-content textarea {font-size: 80%; padding:0 0 0 0;}
 
 
 /* remove border appearing on left on archive pages */
