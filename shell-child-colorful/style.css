@@ -41,8 +41,8 @@ h1, h2, h3, h4, h5, h6 {margin: 0px 25px 10px 0px;}
 
 
 /* extra space above h2,h3 for posts, pages */
-.hfeed h2 {margin-top: 50px;}
-.hfeed h3 {margin-top: 40px;}
+.hfeed h2 {margin-top: 30px;}
+.hfeed h3 {margin-top: 20px;}
 
 
 /* header bg */
