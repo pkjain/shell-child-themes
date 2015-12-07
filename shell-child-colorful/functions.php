@@ -30,11 +30,20 @@ add_action('after_setup_theme', 'scc_after_setup_theme_callback', 11);
 
 /* Display only date in byline */
 function scc_byline_code() {
+  global $post;
   if (is_page()) {
     echo do_shortcode('<div class="byline">[entry-edit-link]</div>');
     return;
   }
-  echo do_shortcode('<div class="byline">[entry-published] [entry-edit-link before=" | "]</div>');
+  $yearmonth = get_the_date("Y-m", $post->ID);
+  $maxyearmonth = "2013-03";
+  if ($yearmonth > $maxyearmonth ) {
+    error_log("POSTUPDATEDDATE:....post [" . get_the_title($post->ID) . "] is after $maxyearmonth . So not showing updated date");
+    echo do_shortcode('<div class="byline">[entry-published] [entry-edit-link before=" | "]</div>');
+  } else {
+    error_log("POSTUPDATEDDATE:====post [" . get_the_title($post->ID) . "] is not after $maxyearmonth . So showing updated date");
+    echo do_shortcode('<div class="byline">Created: [entry-published] | Last modified: [entry-updated] [entry-edit-link before=" | "]</div>');
+  }
 }
 
 
