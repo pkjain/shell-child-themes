@@ -38,7 +38,7 @@ function scc_byline_code() {
   $yearmonth = get_the_date("Y-m", $post->ID);
   $maxyearmonth = "2013-03";
   if ($yearmonth > $maxyearmonth ) {
-    error_log("POSTUPDATEDDATE:....post [" . get_the_title($post->ID) . "] is after $maxyearmonth . So not showing updated date");
+    //error_log("POSTUPDATEDDATE:....post [" . get_the_title($post->ID) . "] is after $maxyearmonth . So not showing updated date");
     echo do_shortcode('<div class="byline">[entry-published] [entry-edit-link before=" | "]</div>');
   } else {
     error_log("POSTUPDATEDDATE:====post [" . get_the_title($post->ID) . "] is not after $maxyearmonth . So showing updated date");
