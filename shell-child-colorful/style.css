@@ -74,6 +74,7 @@ div#menu-secondary li.current-menu-item a {color:#fff; background:inherit;}
   div#menu-secondary .mobile-menu-button { color: #fff; }
   div#menu-secondary div.wrap a, #menu-secondary div.wrap ul a {color: #ccc !important;}
 }
+#menu-secondary li li a {text-transform: none;}
 
 
 /* footer */
