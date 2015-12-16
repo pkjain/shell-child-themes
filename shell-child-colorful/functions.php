@@ -1,6 +1,6 @@
 <?php
 /*****************************************
- * script enqueue/dequeue
+ *  script enqueue/dequeue
  *****************************************/
 function scc_enqueue_dequeue_scripts () {
   // don't need fitvids for now
