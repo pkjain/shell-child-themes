@@ -123,6 +123,9 @@ code {color: #000; background: #eee; padding:3px; font-family:courier, monospace
 /* content image border */
 .entry-content img.alignnone {border: 1px solid #87cefa;}
 
+/* image inside table */
+.entry-content table img {margin:5px;}
+
 /* thumbnail border */
 .hentry img.thumbnail {border: 1px solid #d9d1ba; padding: 1px;}
 
