@@ -70,5 +70,8 @@ function scc_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'scc_excerpt_length', 999 );
 
+// remove extra feed links
+remove_action( 'wp_head', 'feed_links', 2 );
+remove_action( 'wp_head', 'feed_links_extra', 3 );
 
 ?>
