@@ -39,10 +39,10 @@ function scc_byline_code() {
   $maxyearmonth = "2010-12";
   if ($yearmonth > $maxyearmonth ) {
     //error_log("POSTUPDATEDDATE:....post [" . get_the_title($post->ID) . "] is after $maxyearmonth . So not showing updated date");
-    echo do_shortcode('<div class="byline">[entry-published] [entry-edit-link before=" | "]</div>');
+    echo do_shortcode('<div class="byline">[entry-published format="M j, Y"] [entry-edit-link before=" | "]</div>');
   } else {
     #error_log("POSTUPDATEDDATE:====post [" . get_the_title($post->ID) . "] is not after $maxyearmonth . So showing updated date");
-    echo do_shortcode('<div class="byline">Created: [entry-published] | Last modified: [entry-updated] [entry-edit-link before=" | "]</div>');
+    echo do_shortcode('<div class="byline">Created: [entry-published format="M j, Y"] | Last modified: [entry-updated format="M j, Y"] [entry-edit-link before=" | "]</div>');
   }
 }
 
