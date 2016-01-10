@@ -36,7 +36,7 @@ function scc_byline_code() {
     return;
   }
   $yearmonth = get_the_date("Y-m", $post->ID);
-  $maxyearmonth = "2010-12";
+  $maxyearmonth = "2030-12";
   if ($yearmonth > $maxyearmonth ) {
     //error_log("POSTUPDATEDDATE:....post [" . get_the_title($post->ID) . "] is after $maxyearmonth . So not showing updated date");
     echo do_shortcode('<div class="byline">[entry-published format="M j, Y"] [entry-edit-link before=" | "]</div>');
