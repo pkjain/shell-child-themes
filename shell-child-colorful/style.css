@@ -136,10 +136,6 @@ img.alignnone {margin-top:5px;}
 .read-more-link {padding:0 3px 0 3px;}
 
 
-/* textarea, etc */
-.entry-content input[type=text], .entry-content textarea {font-size: 90%; padding:0 0 0 0;}
-
-
 /* remove border appearing on left on archive pages */
 .hfeed h1, .hfeed h2, .hfeed h3, .hfeed h4, .hfeed h5, .hfeed h6 {border-left:0; padding-left:0;}
 
