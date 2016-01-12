@@ -35,10 +35,20 @@ function scc_byline_code() {
     echo do_shortcode('<div class="byline">[entry-edit-link]</div>');
     return;
   }
+  $pub_time = get_the_time('U');
+  $mod_time = get_the_modified_time('U');
+  $diff_time = $mod_time - $pub_time;
+  $diff_days = $diff_time/(24*3600);
+  ##error_log("pub_time=$pub_time mod_time=$mod_time diff_days=$diff_days");
   $yearmonth = get_the_date("Y-m", $post->ID);
-  $maxyearmonth = "2010-12";
+  $maxyearmonth = "2014-12";
+  $to_display_update_date = false;
+  ##if ($yearmonth > $maxyearmonth && $diff_days > 365) {
+  if ($diff_days > 365) {
+    $to_display_update_date = true;
+  }
   $author_str = (is_single()) ? "By [entry-author] " : "";
-  if ($yearmonth > $maxyearmonth ) {
+  if (!$to_display_update_date) {
     //error_log("POSTUPDATEDDATE:....post [" . get_the_title($post->ID) . "] is after $maxyearmonth . So not showing updated date");
     echo do_shortcode('<div class="byline">' . $author_str . 'on [entry-published format="M j, Y"] [entry-edit-link before=" | "]</div>');
   } else {
