@@ -36,7 +36,7 @@ function scc_byline_code() {
     return;
   }
   $yearmonth = get_the_date("Y-m", $post->ID);
-  $maxyearmonth = "2012-12";
+  $maxyearmonth = "2010-12";
   $author_str = (is_single()) ? "By [entry-author] " : "";
   if ($yearmonth > $maxyearmonth ) {
     //error_log("POSTUPDATEDDATE:....post [" . get_the_title($post->ID) . "] is after $maxyearmonth . So not showing updated date");
