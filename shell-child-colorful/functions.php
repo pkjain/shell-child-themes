@@ -39,12 +39,12 @@ function scc_byline_code() {
   $mod_time = get_the_modified_time('U');
   $diff_time = $mod_time - $pub_time;
   $diff_days = $diff_time/(24*3600);
-  ##error_log("pub_time=$pub_time mod_time=$mod_time diff_days=$diff_days");
+  error_log("pub_time=$pub_time mod_time=$mod_time diff_days=$diff_days");
   $yearmonth = get_the_date("Y-m", $post->ID);
   $maxyearmonth = "2014-12";
   $to_display_update_date = false;
   ##if ($yearmonth > $maxyearmonth && $diff_days > 365) {
-  if ($diff_days > 365) {
+  if ($diff_days >= 0) {
     $to_display_update_date = true;
   }
   $author_str = (is_single()) ? "By [entry-author] " : "";
