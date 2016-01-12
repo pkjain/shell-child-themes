@@ -53,7 +53,7 @@ function scc_byline_code() {
     echo do_shortcode('<div class="byline">' . $author_str . 'on [entry-published format="M j, Y"] [entry-edit-link before=" | "]</div>');
   } else {
     #error_log("POSTUPDATEDDATE:====post [" . get_the_title($post->ID) . "] is not after $maxyearmonth . So showing updated date");
-    echo do_shortcode('<div class="byline">' . $author_str . 'on [entry-published format="M j, Y"] | Last updated: [entry-updated format="M j, Y"] [entry-edit-link before=" | "]</div>');
+    echo do_shortcode('<div class="byline">' . $author_str . 'on [entry-published format="M j, Y"] | Last updated on [entry-updated format="M j, Y"] [entry-edit-link before=" | "]</div>');
   }
 }
 
